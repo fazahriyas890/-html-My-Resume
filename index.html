@@ -2,38 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
-    <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazah Riyas - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        img {
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        .star-rating {
+            color: #ffd700;
+        }
+        .contact-links {
+            margin-top: 20px;
+        }
+        .contact-links a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007bff;
+            padding: 8px 16px;
+            border: 1px solid #007bff;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .contact-links a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Fazah Riyas</h1>
-    <img src="SAVE_20231119_145335.jpg" height="200" alt="my pic"/>
-    <h2>Summary</h2>
-    <p>Iam a hardworking and dedicated individual with experience in web development</p>
-    <hr />
-    <h2>Education</h3>
-    <p><ul><li>Bachelor of Engineering - visvesvaraya technological university</li></ul></p>
-    <hr />
-    <h2>Work experience</h2>
-    <h3><ul><li>Software engineer-Google</li></ul></h3>
-    <p><ul>february 2030 - march 2031</ul></p>
-    <p><ul><li>google colloboration</li></ul></p>
-    <hr />
-    <h2>Skills</h2>
-    <p><ul><li>HTML &#9733; &#9733; &#9733; &#9733; &#9733; </li></ul></p>
-    <p><ul><li>CSS &#9733; &#9733;</li></ul></p>
-    <p><ul><li>javascript &#9733; </li></ul></p>
-    <hr />
-    <h2>Certification from google</h2>
-    <p><ul><li>full stack professional</li></ul></p>
-    <hr />
-    <h2>Others</h2>
-    <a href="./contact.html">contact me</a>
-    <a href="./hobbies.html">My hobbies</a>
-
-       <p>Copyright &copy; 2023 MyWebsite. All rights reserved.</p>
-
-
-
+    <header>
+        <h1>Fazah Riyas</h1>
+        <img src="SAVE_20231119_145335.jpg" height="200" alt="Professional headshot of Fazah Riyas"/>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Summary</h2>
+            <p>I am a hardworking and dedicated individual with experience in web development</p>
+        </section>
+        
+        <hr />
+        
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Engineering - Visvesvaraya Technological University</li>
+            </ul>
+        </section>
+        
+        <hr />
+        
+        <section>
+            <h2>Work Experience</h2>
+            <h3>Software Engineer - Google</h3>
+            <p>February 2030 - March 2031</p>
+            <ul>
+                <li>Google collaboration</li>
+            </ul>
+        </section>
+        
+        <hr />
+        
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML <span class="star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span></li>
+                <li>CSS <span class="star-rating">&#9733; &#9733;</span></li>
+                <li>JavaScript <span class="star-rating">&#9733;</span></li>
+            </ul>
+        </section>
+        
+        <hr />
+        
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>Full Stack Professional - Google</li>
+            </ul>
+        </section>
+        
+        <hr />
+        
+        <section>
+            <h2>Contact & More</h2>
+            <div class="contact-links">
+                <a href="./contact.html">Contact Me</a>
+                <a href="./hobbies.html">My Hobbies</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Copyright &copy; 2023 Fazah Riyas. All rights reserved.</p>
+    </footer>
 </body>
 </html>
